@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: ferry.jar
+Main-Class: ml.bastiaan.ferry.test.Main
