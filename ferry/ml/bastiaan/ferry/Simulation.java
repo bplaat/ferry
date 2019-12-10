@@ -5,16 +5,16 @@ import java.util.ArrayList;
 
 public class Simulation {
     // The simulations left shore
-    private Shore shoreLeft;
+    private final Shore shoreLeft;
 
     // The simulations right shore
-    private Shore shoreRight;
+    private final Shore shoreRight;
 
     // The simulations river
-    private River river;
+    private final River river;
 
     // The simulations ferry
-    private Ferry ferry;
+    private final Ferry ferry;
 
     // The constructor method which sets the left and right shore, the river and the ferry
     public Simulation(Shore shoreLeft, Shore shoreRight, River river, Ferry ferry) {

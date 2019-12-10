@@ -12,19 +12,19 @@ import ml.bastiaan.ferry.Simulation;
 
 public class SimulationTest {
     // The test simulations left shore
-    private Shore shoreLeft;
+    private final Shore shoreLeft;
 
     // The test simulations right shore
-    private Shore shoreRight;
+    private final Shore shoreRight;
 
     // The test simulations river
-    private River river;
+    private final River river;
 
     // The test simulations ferry
-    private Ferry ferry;
+    private final Ferry ferry;
 
     // The test simulation
-    private Simulation simulation;
+    private final Simulation simulation;
 
     // The constructor method which creates the test objects for the simulation
     public SimulationTest() {

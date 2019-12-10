@@ -8,10 +8,10 @@ public class Ferry {
     public static final int CARS_CAPACITY = 3;
 
     // The ferry name
-    private String name;
+    private final String name;
 
     // The ferry cars
-    private ArrayList<Car> cars;
+    private final ArrayList<Car> cars;
 
     // The constructor method which sets the ferry name and creates the cars list
     public Ferry(String name) {

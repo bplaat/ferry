@@ -2,7 +2,7 @@ package ml.bastiaan.ferry;
 
 public class River {
     // The river name
-    private String name;
+    private final String name;
 
     // The river ferry
     private Ferry ferry;

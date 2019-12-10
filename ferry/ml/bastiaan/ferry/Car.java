@@ -2,7 +2,7 @@ package ml.bastiaan.ferry;
 
 public class Car {
     // The cars name variable
-    private String name;
+    private final String name;
 
     // The cars start shore name variable
     private String start;

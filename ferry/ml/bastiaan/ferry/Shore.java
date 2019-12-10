@@ -8,10 +8,10 @@ public class Shore {
     public static final int CARS_CAPACITY = 5;
 
     // The shores name
-    private String name;
+    private final String name;
 
     // The shore cars
-    private ArrayList<Car> cars;
+    private final ArrayList<Car> cars;
 
     // The shores ferry
     private Ferry ferry;
