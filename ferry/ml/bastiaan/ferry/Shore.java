@@ -1,3 +1,5 @@
+// Made by Bastiaan van der Plaat (0983259) uit TINPRO02-2
+
 package ml.bastiaan.ferry;
 
 // Import the arraylist class from the java utils to get access to dynamic arrays / lists
